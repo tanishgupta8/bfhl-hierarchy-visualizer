@@ -115,15 +115,15 @@ export default function App() {
         <div className="profile-badges">
           <div className="profile-badge profile-badge-accent">
             <User size={14} />
-            <span>Developer: <strong>{apiResult?.user_id || 'Tanish Gupta'}</strong></span>
+            <span>Developer: <strong>{apiResult?.user_id || 'tanishgupta_24062026'}</strong></span>
           </div>
           <div className="profile-badge">
             <Mail size={14} />
-            <span>{apiResult?.email_id || 'tanish.gupta@chitkara.edu.in'}</span>
+            <span>{apiResult?.email_id || 'tanish1063.be23@chitkara.edu.in'}</span>
           </div>
           <div className="profile-badge">
             <Hash size={14} />
-            <span>Roll: <strong>{apiResult?.college_roll_number || '2010992345'}</strong></span>
+            <span>Roll: <strong>{apiResult?.college_roll_number || '2310991063'}</strong></span>
           </div>
         </div>
       </header>
