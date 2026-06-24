@@ -115,7 +115,7 @@ export default function App() {
         <div className="profile-badges">
           <div className="profile-badge profile-badge-accent">
             <User size={14} />
-            <span>Developer: <strong>{apiResult?.user_id || 'tanishgupta_24062026'}</strong></span>
+            <span>Developer: <strong>{apiResult?.user_id || 'tanishgupta_08012005'}</strong></span>
           </div>
           <div className="profile-badge">
             <Mail size={14} />
