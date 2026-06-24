@@ -331,10 +331,10 @@ export default function App() {
       <footer className="footer">
         <p>Built for the Chitkara Full Stack Challenge. Running on Node.js/Express (Render backend) and React/Vite (Vercel frontend).</p>
         <p style={{ marginTop: '8px', display: 'flex', justifyContent: 'center', gap: '20px' }}>
-          <a href="#" className="flex items-center gap-1">
+          <a href="https://bfhl-hierarchy-visualizer.vercel.app" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1">
             <ExternalLink size={14} style={{ display: 'inline', verticalAlign: 'text-bottom' }} /> Live Demo
           </a>
-          <a href="#" className="flex items-center gap-1">
+          <a href="https://github.com/tanishgupta8/bfhl-hierarchy-visualizer" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1">
             <Github size={14} style={{ display: 'inline', verticalAlign: 'text-bottom' }} /> GitHub Repository
           </a>
         </p>
