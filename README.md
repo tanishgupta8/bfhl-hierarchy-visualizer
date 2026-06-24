@@ -3,9 +3,9 @@
 A complete production-ready Full Stack solution that validates, builds, and visualizes relationships between nodes. Built using **Node.js/Express** on the backend and **React/Vite** on the frontend, featuring clean modular logic, cycle detection, automatic multi-parent override management, and duplicate edge parsing.
 
 ## 🚀 Live Demo & Repository
-* **Frontend Web URL:** [https://chitkara-challenge-frontend.vercel.app](https://chitkara-challenge-frontend.vercel.app) *(Placeholder - replace with your Vercel URL)*
-* **Backend API Base URL:** [https://chitkara-challenge-backend.onrender.com](https://chitkara-challenge-backend.onrender.com) *(Placeholder - replace with your Render URL)*
-* **GitHub Repository:** [https://github.com/yourusername/chitkara-challenge](https://github.com/yourusername/chitkara-challenge) *(Placeholder - replace with your repo URL)*
+* **Frontend Web URL:** [https://bfhl-hierarchy-visualizer.vercel.app](https://bfhl-hierarchy-visualizer.vercel.app) *(Placeholder - replace with your Vercel URL)*
+* **Backend API Base URL:** [https://bfhl-hierarchy-visualizer.onrender.com](https://bfhl-hierarchy-visualizer.onrender.com) *(Placeholder - replace with your Render URL)*
+* **GitHub Repository:** [https://github.com/yourusername/bfhl-hierarchy-visualizer](https://github.com/yourusername/bfhl-hierarchy-visualizer) *(Placeholder - replace with your repo URL)*
 * **GitHub Profile:** [https://github.com/yourusername](https://github.com/yourusername) *(Placeholder - replace with your profile URL)*
 
 ---
@@ -64,9 +64,9 @@ Processes an array of relationship strings and returns the computed hierarchies,
 * **Response Format:**
   ```json
   {
-    "user_id": "tanishgupta_24062026",
-    "email_id": "tanish.gupta@chitkara.edu.in",
-    "college_roll_number": "2010992345",
+    "user_id": "tanishgupta_08012005",
+    "email_id": "tanish1063.be23@chitkara.edu.in",
+    "college_roll_number": "2310991063",
     "hierarchies": [
       {
         "root": "A",
@@ -109,9 +109,9 @@ Make sure you have Node.js (version 20+) and npm installed.
 3. Set your environment variables in a `.env` file:
    ```env
    PORT=4000
-   USER_ID=tanishgupta_24062026
-   EMAIL_ID=tanish.gupta@chitkara.edu.in
-   COLLEGE_ROLL_NUMBER=2010992345
+   USER_ID=tanishgupta_08012005
+   EMAIL_ID=tanish1063.be23@chitkara.edu.in
+   COLLEGE_ROLL_NUMBER=2310991063
    ```
 4. Run the backend tests:
    ```bash
